@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>App Weather</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--custom Style-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <div class="page-header">
+            <div id="map" class="jumbotron text-center"><h1>Weather APP</h1></div>
+
+
+        </div>
+        <div class="row">
+            <aside class="col-md-4">
+                <h2 id="name"></h2>
+                <h3><img id="ico" src="" alt=""/><span id="temp"></span></h3>
+
+                <p id="description"></p>
+                <table class="table">
+                    <tr>
+                        <th>Vent</th><td id="wind"></td>
+                    </tr>
+                    <tr>
+                        <th>Nuageux</th><td id="clouds">	</td>
+                    </tr>
+                    <tr>
+                        <th>Pression</th><td id="pressure"></td>
+                    </tr>
+                    <tr>
+                        <th>Taux d'humidité</th><td id="humidity">	</td>
+                    </tr>
+                    <tr>
+                        <th>Levée du soleil</th><td id="sunrise"></td>
+                    </tr>
+                    <tr>
+                        <th>couché du soleil</th><td id="sunset"></td>
+                    </tr>
+                    <tr>
+                        <th>Coordonnée GPS</th><td id="coords"></td>
+                    </tr>
+                </table>
+            </aside>
+            <main class="col-md-8">
+                <ul class = "nav nav-tabs" role="tablist">
+                    <li role= "presentation" class="active"><a href="#main"  aria-contole="" role="tab" data-toggle="tab">Main  </a></li>
+                    <li role= "presentation" class=""      ><a href="#daily" aria-contole="" role="tab" data-toggle="tab">daily </a></li>
+                    <li role= "presentation" class="">     <a href="#hourly" aria-contole="" role="tab" data-toggle="tab">Hourly</a></li>
+                    <li role= "presentation" class="">     <a href="#chart"  aria-contole="" role="tab" data-toggle="tab">Chart </a></li>
+                    <li role= "presentation" class="">     <a href="#maps"   aria-contole="" role="tab" data-toggle="tab">Maps  </a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="main"></div>
+                    <div role="tabpanel" class="tab-pane"        id="daily">bbbbbb</div>
+                    <div role="tabpanel" class="tab-pane"        id="hourly">cccccc</div>
+                    <div role="tabpanel" class="tab-pane"        id="chart">cdddddd</div>
+                    <div role="tabpanel" class="tab-pane"        id="maps">eeeeee</div>
+
+                </div>
+            </main>
+
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cachax.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/highcharts-more.js"></script>
+    <script src="js/themes/dark-unica.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

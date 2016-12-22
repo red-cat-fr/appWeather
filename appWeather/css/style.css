@@ -1,0 +1,24 @@
+/*.jumbotron {
+    margin-bottom: 0;
+    background-position: 0 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://maps.googleapis.com/maps/api/streetview?size=600x300&location=47.38,0.68&heading=151.78&pitch=-0.76&key=AIzaSyADOomMECKoDoame-iXnGw9Cx12ns1-yIM);
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    border-radius: 0;
+    padding: 10em;
+    width: 100%;
+
+
+}
+.container .jumbotron, .container-fluid .jumbotron{
+    border-radius: 0;
+}
+*/
+
+body{
+    margin-top: 0;
+}
